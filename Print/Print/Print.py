@@ -36,3 +36,22 @@ print("========")
 print("문자열 길이 출력")
 print("이것의 길이는?")
 print(len("이것의 길이는?"))
+print("========")
+
+# 입력받기
+string = input("입력하세요 :::")
+print("입력한 값은 아래와 같습니다")
+print(string, "타입은..", type(string))
+print("어.. 변수명이 string인데 되네..? 또 입력해보자 :::")
+String = input()
+print("입력한 값은 아래와 같습니다")
+print(String)
+print("========")
+
+# 숫자로 바꾸기
+stringA = input("숫자 입력하기")
+print("변환 전 타입")
+print(type(stringA))
+print("변환 후 타입")
+intA = int(stringA)
+print(type(intA))
