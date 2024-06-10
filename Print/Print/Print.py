@@ -55,3 +55,25 @@ print(type(stringA))
 print("변환 후 타입")
 intA = int(stringA)
 print(type(intA))
+print("========")
+
+# 문자열 format() 함수
+stringF = "{}".format(10)
+print(stringF)
+print(type(stringF))
+formatA = "{}만원".format(5000)
+formatB = "{}{}{}".format(1, "하하", True)
+print(formatA)
+print("formatA의 타입 ::: ", type(formatA))
+print(formatB)
+print("formatB의 타입 ::: ", type(formatB))
+formatC = "5 + 5 = {}".format(5+5)
+print(formatC)
+print("========")
+#대소문자 바꾸기
+a = "Hello My Name..."
+a = a.upper()
+print(a)
+print(a.lower())
+
+
