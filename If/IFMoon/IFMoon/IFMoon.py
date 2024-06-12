@@ -40,3 +40,13 @@ print(now.hour, "시")
 print(now.minute, "분")
 print(now.second, "초")
 print("{}년 {}월 {}일 {}시 {}분 {}초".format(now.year, now.month, now.day, now.hour, now.minute, now.second))
+
+if now.hour < 12:
+    print("현재 시각은 {}시이며 오전입니다".format(now.hour))
+else:
+    print("현재 시각은 {}시이며 오후입니다".format(now.hour))
+    
+num = 1
+if num == 1:
+    print("1")
+    pass
