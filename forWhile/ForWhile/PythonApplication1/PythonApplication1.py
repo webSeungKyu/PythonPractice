@@ -2,6 +2,7 @@
 from pickle import INST
 import sys
 import io
+from turtle import st
 
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
@@ -119,3 +120,22 @@ for key in character:
     
 
 print("==============")
+
+star = ""
+for i in range(0, 8):
+    print(star)
+    star = star + "*"
+    
+whileI = 0
+while whileI < 10:
+    whileI = whileI + 1
+    print("{}번째 반복입니다".format(whileI))
+    
+whileJ = 0
+while True:
+    whileJ += 1
+    print("{}번째 반복입니다".format(whileJ))
+    if whileJ == 28:
+        print("28..?")
+    elif whileJ == 50:
+        break
